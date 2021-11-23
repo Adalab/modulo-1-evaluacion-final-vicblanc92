@@ -1,19 +1,33 @@
 .aside {
   &__page {
+    height: 100vh;
     display: grid;
+    grid-template-rows: 130px 30px 80px 30px 80px 30px;
     grid-template-columns: 1fr;
+    grid-gap: 5px;
+    font-family: "Roboto Slab";
+    justify-items: center;
+    background-color: $iceBlue;
 
-    font-family: "Roboto Slab", serif;
-  }
+    &--title {
+      text-transform: capitalize;
+      margin-top: 40px;
+    }
+    &--subtitle {
+      line-height: 20px;
+    }
+    &--text {
+      width: 200px;
+      text-align: center;
+    }
 
-  &--subtitle1 {
-  }
-
-  &__btn {
-    background-color: $brightOrange;
-    color: $white;
-    border-radius: 40%;
-    width: 150px;
-    height: 45px;
+    &--btn {
+      background-color: $brightOrange;
+      color: $white;
+      border: 1px solid $brightOrange;
+      width: 124px;
+      height: 45px;
+      border-radius: 20px;
+    }
   }
 }
