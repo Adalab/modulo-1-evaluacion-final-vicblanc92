@@ -1,3 +1,13 @@
-.page__footer {
-  position: fixed;
+.footer__page {
+  width: 100%;
+  height: 465px;
+  background-color: $darkBlue;
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 1.5;
 }
