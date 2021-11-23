@@ -1,3 +1,28 @@
-.image__hero {
-  width: 100%;
+.hero {
+  &__page {
+    background-image: url("../../assets/images/cover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    object-fit: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &--text1 {
+      color: $white;
+      text-transform: uppercase;
+      flex-wrap: wrap;
+      text-align: center;
+      font-size: 30px;
+      line-height: 55px;
+      font-family: "Roboto Slab";
+    }
+    &--text2 {
+      color: $white;
+      text-align: center;
+      font-size: 16px;
+      font-family: "Roboto Slab";
+    }
+  }
 }

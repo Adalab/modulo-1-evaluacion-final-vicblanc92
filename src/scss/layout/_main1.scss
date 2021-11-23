@@ -10,7 +10,38 @@
     &--insomnia {
       color: $lightBlue;
       font-size: 14px;
-      margin-bottom: 5px;
+      margin: 15px;
+      line-height: 30px;
+      width: 90px;
+      height: 30px;
+    }
+    &--wrapper {
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+    }
+    &--title {
+      font-size: 24px;
+      margin: 15px;
+    }
+
+    &--paragraph1 {
+      font-size: 18px;
+      margin: 15px;
+      width: 320px;
+    }
+
+    &--btn {
+      color: $brightOrange;
+      width: 76px;
+      height: 45px;
+      border: solid 3px $brightOrange;
+      border-radius: 40%;
+      margin-top: 20px;
+      font-size: 16px;
+      margin: 15px;
     }
   }
 }
