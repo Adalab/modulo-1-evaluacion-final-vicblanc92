@@ -1,3 +1,13 @@
-.link {
-  background-color: ;
+i {
+  background-color: $darkBlue;
+  color: $white;
+  width: 44px;
+  height: 44px;
+  position: fixed;
+}
+
+.icon__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
