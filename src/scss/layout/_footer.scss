@@ -24,6 +24,7 @@
     }
     &--copy {
       flex-direction: column;
+
       text-align: center;
       color: $white;
     }
@@ -37,7 +38,26 @@
   .footer {
     &__nav {
       display: inline-block;
+      width: 100%;
       height: 240px;
+      &--copy {
+        transform: translateX(-550%);
+      }
+
+      &--list2 {
+        float: right;
+        display: inline-flex;
+        flex-direction: column;
+        text-align: right;
+        transform: translateY(-100%);
+        line-height: 30px;
+        margin: 40px;
+      }
+      &--list1 {
+        margin: 15px;
+        transform: translateY(20%);
+        line-height: 30px;
+      }
     }
   }
 }

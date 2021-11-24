@@ -31,3 +31,21 @@
     }
   }
 }
+
+@media (min-width: 768px) {
+  .aside {
+    &__page {
+      &--title {
+        grid-column: span 4;
+      }
+      &--subtitle {
+        grid-template-columns: 40px 40 px 40px;
+        grid-template-rows: 70px;
+      }
+      &--text {
+        grid-template-columns: 40px 40 px 40px;
+        grid-template-rows: 70px;
+      }
+    }
+  }
+}

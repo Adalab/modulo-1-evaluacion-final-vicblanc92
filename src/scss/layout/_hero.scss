@@ -33,3 +33,14 @@
     }
   }
 }
+
+.hero {
+  &__icon {
+    width: 35px;
+    height: 35px;
+    background-color: $white;
+    border-radius: 60%;
+    text-align: center;
+    transform: translateY(250px);
+  }
+}
