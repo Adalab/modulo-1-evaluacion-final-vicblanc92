@@ -42,3 +42,54 @@
     }
   }
 }
+
+.main2 {
+  &__page {
+    display: grid;
+
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    font-family: "Roboto Slab";
+    justify-items: center;
+    background-color: $iceBlue;
+    text-align: center;
+    &--title {
+      text-transform: capitalize;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+    &--subtitle {
+      line-height: 20px;
+      margin: 10px;
+    }
+    &--text {
+      width: 200px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    &--btn {
+      background-color: $brightOrange;
+      color: $white;
+      border: 1px solid $brightOrange;
+      width: 124px;
+      height: 45px;
+      border-radius: 20px;
+      margin: 50px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .main2 {
+    &__page {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    &__page--title {
+      grid-column: span 3;
+    }
+    &__page--btn {
+      grid-column: span 3;
+    }
+  }
+}
