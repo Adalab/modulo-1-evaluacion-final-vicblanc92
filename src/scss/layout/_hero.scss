@@ -12,8 +12,8 @@
     align-items: center;
 
     &--container {
-      margin-top: 284px;
-      margin-bottom: 175px;
+      margin-top: 30%;
+      margin-bottom: 30%;
       width: 100%;
     }
 
@@ -40,8 +40,10 @@
     height: 35px;
     background-color: $white;
     border-radius: 60%;
-    text-align: center;
-    transform: translateY(250px);
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -50,6 +52,22 @@
     &__page {
       &--text1 {
         font-size: 80px;
+        margin: 20px;
+        line-height: 70px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero {
+    &__page {
+      &--text1 {
+        font-size: 100px;
+        line-height: 90px;
+        width: 50%;
+        margin: 30px;
+        flex-wrap: wrap;
       }
     }
   }
