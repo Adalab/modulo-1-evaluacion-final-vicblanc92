@@ -39,6 +39,12 @@
       margin-top: 20px;
       font-size: 16px;
       margin: 15px;
+      transition: background-color ease 2s;
+      transition: color ease 2s;
+      &:hover {
+        background-color: $lightBlue;
+        color: $white;
+      }
     }
   }
 }
